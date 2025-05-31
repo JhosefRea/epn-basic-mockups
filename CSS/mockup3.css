@@ -1,0 +1,173 @@
+
+body{
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+ 
+.header{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    border-bottom: 10px solid #bcbbbb;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid #f8981c; /*círculo*/
+    margin-bottom: 10px;
+
+}
+
+.logo p{
+    font-size: 500%;
+    font-weight: 800;
+}
+.header .message{
+    width: 100%;
+    position: relative;
+    left: 31%;
+}
+.message pre{
+    width: 100%;
+    font-size: 30pt;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #bcbbbb;
+    
+}
+
+.message h3{
+    font-weight: 100;
+    margin-top: 0%;
+}
+
+.text{
+    display: flex;
+    margin: 2em 0;
+    width: 100%;
+}
+ 
+/*.line{
+    padding-bottom: 15px;
+    border-bottom: 5px solid #bcbbbb;
+}*/
+
+.firstLigne h3{
+    margin: 10px 0px;
+}
+
+.content{
+    width: 600px;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+pre, h2 {
+    text-transform: uppercase;
+    margin: 0;
+    color: #747704;
+}
+ 
+/*h1 {
+    font-size: 3.5em; //40pt
+    font-weight: 100;
+    margin: 0;
+    color: #bcbbbb;
+}
+ 
+h2 {
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #bcbbbb;
+}*/
+ 
+ 
+h3 {
+    font-size: 2.5em;
+    color: #bcbbbb;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.image{
+    width: 100%;
+    height: 350px;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.secondLigne{
+    display: flex;
+    align-items: center;
+
+}
+
+.contImage2, .contImage3, .contImage1{
+    width: 30%;
+    height: 140px;
+}
+
+.image1, .image2, .image3{
+    height: 100%;
+    width: 100%; 
+}
+
+.contImage2{
+    margin: 0px 30px;
+}
+
+
+.soccerPlayer{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.soccerPlayer div{
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+}
+
+.soccerPlayer h4{
+    width: 100%;
+    color: #747704;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.soccerPlayer p{
+    width: 100%;
+    padding: 0;
+    margin-top: 1px;
+}
+.soccerPlayer p a{
+    color: #bcbbbb;
+    text-decoration: none;
+    margin: 0px;
+
+
+}
+
+
+
+
+
+
+
+ 

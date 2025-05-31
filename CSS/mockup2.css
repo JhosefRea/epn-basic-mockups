@@ -1,0 +1,53 @@
+body{
+    margin-top: 10px;
+    background: #E8E8E7;
+    font-family: 'Shift', sans-serif;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header .image{
+    height: 550px;
+    width: 100%;
+    padding: 20px 0px;
+  
+}    
+
+.header .textImage{
+    position: absolute;
+    border: 2px solid white;
+    width: 450px;
+    left:35%;
+    text-align: center;
+}
+
+ 
+.textImage p{
+    font-size: 20px;
+    color: red;
+    margin-top: 10px;   
+}
+
+.textImage h1{
+    font-size: 50px;
+    color: red;
+
+}
+
+.line{
+    background: #8BCC98;
+    width: 100%;
+    height: 2px;
+    padding: 10px;
+}
+.text{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 20px;
+    color: grey;
+    background-color: white;
+    width: 500px;
+}
